@@ -25,6 +25,7 @@ const port = 3000;
 
 const allowedOrigins = ['https://swift-meetup.vercel.app'];
 
+
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
