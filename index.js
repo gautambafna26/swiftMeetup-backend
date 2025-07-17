@@ -23,7 +23,7 @@ const createToken = (roomName,participantName) => {
 const app = express();
 const port = 3000;
 
-const allowedOrigins = ['https://swift-meetup.vercel.app/'];
+const allowedOrigins = ['https://swift-meetup.vercel.app'];
 
 const corsOptions = {
   origin: function (origin, callback) {
